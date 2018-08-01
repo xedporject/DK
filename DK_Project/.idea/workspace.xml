@@ -30,7 +30,6 @@
         <entry file="file://$PROJECT_DIR$/templates/home/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#section#0;n#section#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#section#0;n#section#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -90,7 +89,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-156" />
     <option name="y" value="15" />
     <option name="width" value="936" />
@@ -234,7 +233,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -242,7 +241,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22361359" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22361359" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291592" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2611156" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -377,7 +376,6 @@
     <entry file="file://$PROJECT_DIR$/templates/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="n#style#0;n#a#0;n#section#0;n#section#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#section#0;n#section#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
