@@ -124,7 +124,7 @@ input,button,select,img{vertical-align:middle;}
 /*pulicForm*/
 .textBox{padding:5px;border:1px #999 solid;}
 .inline-select{padding:4px;border:1px #999 solid;}
-.length-long{width:300px;}
+.length-long{width:200px;}
 .length-middle{width:220px;}
 .length-short{width:60px;}
 .textarea{border:1px #999 solid;width:500px;height:180px;}

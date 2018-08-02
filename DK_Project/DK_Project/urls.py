@@ -19,6 +19,8 @@ from django.contrib import admin
 import dk
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^dk/', include('dk.urls',namespace='dk')),
+
+    url(r'^dk/', include('dk.urls', namespace='dk')),
+    url(r'^admin/', include('dk_admin.urls', namespace='admin')),
+    url(r'^huankuan/', include('huankuan.urls', namespace='huankuan')),
 ]
