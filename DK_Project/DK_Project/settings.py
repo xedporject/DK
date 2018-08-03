@@ -80,11 +80,12 @@ WSGI_APPLICATION = 'DK_Project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dkproject',
+        'NAME': 'dk01',
         'PORT': 3306,
         'USER': 'root',
-        'PASSWORD':'123456',
-        'HOST':'47.104.85.246'
+        'PASSWORD': '123456',
+        'HOST': '47.104.85.246',
+        # 'HOST': '127.0.0.1'
     }
 }
 
@@ -129,3 +130,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS=[
     os.path.join(BASE_DIR,'static')
 ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
