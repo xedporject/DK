@@ -1,10 +1,15 @@
 
+"""
+
+爬去分期乐的商品的详情和评论，保存在 mongodb 中
+
+"""
 import json
 
 import requests
 
-from utils.functions import etree_xpath
-from utils.mongo_conn import COLLECTION   # mongodb的数据集
+from .utils.functions import etree_xpath
+from .utils.mongo_conn import COLLECTION   # mongodb的数据集
 
 
 def get_good_page_url(url, category_id):

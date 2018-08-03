@@ -23,6 +23,7 @@ create_time   创建时间   str
 ### 商品表
 
 ```python
+自增主键   id 
 商品id  	good_id  str
 标题 		good_name  (product_name)    str
 商品类别  	category_id   （id_1）  int
