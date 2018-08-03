@@ -20,5 +20,6 @@ import dk
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^dk/', include('dk.urls',namespace='dk')),
+    url(r'^dk/', include('dk.urls', namespace='dk')),
+    url(r'^market/', include('market.urls', namespace='market')),
 ]
