@@ -18,6 +18,7 @@ def insert_category(conn):
         217: "平板数码",
         179: "运动户外",
         255: "家电家居",
+        1000: "其他",
     }
     with conn.cursor() as cursor:
         for category_id, category_name in categories_dict.items():
@@ -70,19 +71,25 @@ def insert_brand(conn):
 def insert_goods(conn, GOODS):
     """将商品信息插入数据库"""
     # 数据库中的所有的字段 22 个
-    kws = ("sku_id", "product_name", "category_id_1", "brand_id", "product_desc",
+    kws = ("product_name", "category_id_1", "brand_id", "product_desc",
          "short_product_name", "sku_key_1", "sku_key_2", "sku_key_3", "product_flag",
          "min_firstpay", "is_product_up_down", "real_amount", "mart_amount", "fq_num",
          "product_info", "delivery_time", "gift_list", "fe_params", "slider_imgs",
          "detail_imgs", "create_time")
-    sql = "insert into goods values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-
+    # 插入除 商品 id 之外的字段
+    # sql = "insert into goods () values (%s, %s, %s, %s, %s, " \
+    #       "%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    sql = "insert into goods (good_name,category_id,brand_id,product_name,short_product_name," \
+          "sku_key_1,sku_key_2,sku_key_3,product_flag,min_firstpay,is_product_up_down,real_amount," \
+          "mart_amount,fq_num,product_info,delivery_time,gift_list,fe_params,slider_imgs,detail_imgs," \
+          "create_time) values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    # 获取mongodb 中的数据
     goods = GOODS.find()
     for good in goods:
         try:
             data = []
             # 商品 id 去重集合
-            good_id_set = set()
+            # good_id_set = set()
             for kw in kws[:-5]:
                 info = good["detail_data"].get(kw)
                 data.append(info)
@@ -99,38 +106,38 @@ def insert_goods(conn, GOODS):
             create_time = datetime.datetime.strftime(t, "%Y-%m-%d %H:%M:%S")
             data.append(create_time)
             # 判断 id 是否重复
-            if good["good_id"] not in good_id_set:
-                with conn.cursor() as cursor:
-                    cursor.execute("select brand_id from goods_brand")
-                    all_brand_ids = [brand_id[0] for brand_id in cursor.fetchall()]
-                    cursor.execute("select category_id from goods_category")
-                    all_category_ids = [category_id[0] for category_id in cursor.fetchall()]
-                    data[2] = 1000 if int(data[2]) not in all_category_ids else int(data[2])
-                    data[3] = 10000 if int(data[3]) not in all_brand_ids else (data[3])
-                    cursor.execute(sql, tuple(data))
-                    conn.commit()
-            good_id_set.add(good["good_id"])
-        except:
+            # if good["good_id"] not in good_id_set:
+            with conn.cursor() as cursor:
+                cursor.execute("select brand_id from goods_brand")
+                # 查出所有的品牌 id
+                all_brand_ids = [brand_id[0] for brand_id in cursor.fetchall()]
+                cursor.execute("select category_id from goods_category")
+                # 查出所有的种类 id
+                all_category_ids = [category_id[0] for category_id in cursor.fetchall()]
+                data[1] = data[1] if data[1] else 1000
+                data[2] =  data[2] if data[2] else 10000
+                data[1] = 1000 if int(data[1]) not in all_category_ids else int(data[1])
+                data[2] = 10000 if int(data[2]) not in all_brand_ids else int(data[2])
+                cursor.execute(sql, tuple(data))
+                conn.commit()
+            # good_id_set.add(good["good_id"])
+        except Exception as e:
+            print(e)
             continue
-
 
 
 def main():
     # MySQL 连接
     conn = pymysql.connect(host="127.0.0.1", port=3306, user="root", password="123456",
                            db="test", charset="utf8", autocommit=False)
-
-    # 将 分类插入数据库
+    # 将分类插入数据库
     # insert_category(conn)
-
     # 将品牌插入数据库
     # insert_brand(conn)
-
     # 将商品插入数据库
     # mongodb  连接
     CONN = pymongo.MongoClient(host='10.7.152.75', port=27017)
     GOODS = CONN["fenqile"]["goods"]
-
     insert_goods(conn, GOODS)
 
     conn.close()

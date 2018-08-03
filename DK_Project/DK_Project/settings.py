@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'DK_Project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "tp",
+        'NAME': "test",
         "HOST": 'localhost',
         "PORT": 3306,
         "USER": 'root',  # 用户名

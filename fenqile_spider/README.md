@@ -23,12 +23,11 @@ create_time   创建时间   str
 ### 商品表
 
 ```python
-自增主键   id 
-商品id  	good_id  str
+商品id  	good_id  int  自增
 标题 		good_name  (product_name)    str
 商品类别  	category_id   （id_1）  int
 商品品牌  	brand_id  int
-商品描述	   product_desc  str  需将其中的 "分期乐" 替换
+商品描述	   product_name  str  需将其中的 "分期乐" 替换
 商品简称  	short_product_name str
 关键词1 	 sku_key_1  str
 关键词2 	 sku_key_2  str
