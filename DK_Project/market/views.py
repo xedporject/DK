@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 def index(request):
 
-    return render(request, 'market/uc.html')
+    return render(request, 'goods_market/index.html')
 
 
 def detail(request):
