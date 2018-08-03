@@ -5,7 +5,7 @@ from django.db import models
 
 
 class GoodsCategory(models.Model):
-    category_id = models.IntegerField(primary_key=True, null=True)
+    category_id = models.IntegerField(primary_key=True)
     category_name = models.CharField(max_length=32, blank=True, null=True)
     create_time = models.CharField(max_length=64, blank=True, null=True)
 
@@ -14,7 +14,7 @@ class GoodsCategory(models.Model):
 
 
 class GoodsBrand(models.Model):
-    brand_id = models.IntegerField(primary_key=True, null=True)
+    brand_id = models.IntegerField(primary_key=True)
     create_time = models.CharField(max_length=64, blank=True, null=True)
     brand_name = models.CharField(max_length=32, blank=True, null=True)
     brand_name_ch = models.CharField(max_length=32, blank=True, null=True)
@@ -26,7 +26,7 @@ class GoodsBrand(models.Model):
 
 
 class Goods(models.Model):
-    good_id = models.AutoField(primary_key=True, null=True)
+    good_id = models.AutoField(primary_key=True)
     good_name = models.CharField(max_length=32, blank=True, null=True)
     category = models.ForeignKey('GoodsCategory', models.DO_NOTHING, blank=True, null=True)
     brand = models.ForeignKey('GoodsBrand', models.DO_NOTHING, blank=True, null=True)
