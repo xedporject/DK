@@ -5,15 +5,20 @@ from django.db import models
 
 
 class GoodsCategory(models.Model):
-    category_id = models.IntegerField(primary_key=True)
-    category_name = models.CharField(max_length=32, blank=True, null=True)
-    create_time = models.CharField(max_length=64, blank=True, null=True)
 
     class Meta:
         db_table = 'goods_category'
 
+    category_id = models.IntegerField(primary_key=True)
+    category_name = models.CharField(max_length=32, blank=True, null=True)
+    create_time = models.CharField(max_length=64, blank=True, null=True)
+
 
 class GoodsBrand(models.Model):
+
+    class Meta:
+        db_table = 'goods_brand'
+
     brand_id = models.IntegerField(primary_key=True)
     create_time = models.CharField(max_length=64, blank=True, null=True)
     brand_name = models.CharField(max_length=32, blank=True, null=True)
@@ -21,11 +26,12 @@ class GoodsBrand(models.Model):
     brand_name_en = models.CharField(max_length=32, blank=True, null=True)
     category = models.ForeignKey('GoodsCategory', models.DO_NOTHING, blank=True, null=True)
 
-    class Meta:
-        db_table = 'goods_brand'
-
 
 class Goods(models.Model):
+
+    class Meta:
+        db_table = 'goods'
+
     good_id = models.AutoField(primary_key=True)
     good_name = models.CharField(max_length=32, blank=True, null=True)
     category = models.ForeignKey('GoodsCategory', models.DO_NOTHING, blank=True, null=True)
@@ -49,6 +55,7 @@ class Goods(models.Model):
     detail_imgs = models.TextField(blank=True, null=True)
     create_time = models.CharField(max_length=64, blank=True, null=True)
 
-    class Meta:
-        db_table = 'goods'
+
+
+
 

@@ -130,17 +130,17 @@ STATICFILES_DIRS = [
 ]
 
 # 修改配置  rest_framework
-# REST_FRAMEWORK = {
-#     # 分页
-#     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-#     'PAGE_SIZE': 5,
-#     # 将 restframework 默认的用户认证取消
-#     'DEFAULT_AUTHENTICATION_CLASS': (),
-#     # 重构数据结构
-#     'DEFAULT_RENDERER_CLASSES': ('utils.functions.CustomJsonRenderer',),
-#     # 筛选过滤数据
-#     'DEFAULT_FILTER_BACKENDS':(
-#         'rest_framework.filters.DjangoFilterBackend',
-#         'rest_framework.filters.SearchFilter',
-#     ),
-# }
+REST_FRAMEWORK = {
+    # 分页
+    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    # 'PAGE_SIZE': 5,
+    # 将 restframework 默认的用户认证取消
+    'DEFAULT_AUTHENTICATION_CLASS': (),
+    # 重构数据结构
+    # 'DEFAULT_RENDERER_CLASSES': ('utils.functions.CustomJsonRenderer',),
+    # 筛选过滤数据
+    'DEFAULT_FILTER_BACKENDS':(
+        'rest_framework.filters.DjangoFilterBackend',
+        'rest_framework.filters.SearchFilter',
+    ),
+}

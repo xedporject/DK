@@ -4,6 +4,8 @@
 rest_framework  自定义序列化器
 
 """
+import re
+import json
 
 from rest_framework import serializers
 
@@ -15,12 +17,25 @@ class GoodSerializer(serializers.ModelSerializer):
     class Meta:
         model = Goods
 
-    # def to_representation(self, instance):
-    #     """对对查询到的对象 instance 进行初步的处理, 如可以将外键的一些属性进行查询"""
-    #     data = super().to_representation(instance)
-    #     data['name'] = instance.fk.name
-    #     return data
-    #
+    # 对获取到的数据进行数据格式化
+    def to_representation(self, instance):
+        data = super().to_representation(instance)
+        category_id= data.pop('category')
+        brand_id= data.pop('brand')
+        product_info = data.pop('product_info')
+        product_name = re.sub('分期乐', '简单贷', data.pop('product_name'))
+        fe_params = json.loads(data.pop("fe_params"))
+        slider_imgs = data.pop('slider_imgs').split('||')
+        detail_imgs = data.pop('detail_imgs').split("||")
+        data['category_id'] = category_id
+        data['brand_id'] = brand_id
+        data['product_info'] = product_info
+        data['product_name'] = product_name
+        data['fe_params'] = fe_params
+        data['slider_imgs'] = slider_imgs
+        data['detail_imgs'] = detail_imgs
+        return data
+
     # def update(self, instance, validated_data):
     #     """
     #     重构数据结构

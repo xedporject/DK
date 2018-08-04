@@ -4,7 +4,7 @@ from rest_framework import mixins, viewsets
 
 from market.models import Goods, GoodsCategory, GoodsBrand
 from utils.serializers import GoodSerializer, GoodsBrandSerializer, GoodsCategorySerializer
-from utils.filters import GoodsFilter, GoodsBrandFilter
+from utils.filters import GoodsFilter, GoodsBrandFilter, GoodsCategoryFilter
 
 # Create your views here.
 
@@ -53,7 +53,7 @@ class BrandApi(mixins.ListModelMixin,  # get
     """品牌的 API """
     queryset = GoodsBrand.objects.all()
     serializer_class = GoodsBrandSerializer
-    filter_class = GoodsBrandSerializer
+    filter_class = GoodsBrandFilter
 
 
 class CategoryApi(mixins.ListModelMixin,  # get
@@ -65,3 +65,4 @@ class CategoryApi(mixins.ListModelMixin,  # get
     """品牌的 API """
     queryset = GoodsCategory.objects.all()
     serializer_class = GoodsCategorySerializer
+    filter_class = GoodsCategoryFilter
