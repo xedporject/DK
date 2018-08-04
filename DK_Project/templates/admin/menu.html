@@ -1,11 +1,12 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>左侧导航</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="style/adminStyle.css" rel="stylesheet" type="text/css" />
-<script src="js/jquery.js"></script>
-<script src="js/public.js"></script>
+<link href="/static/admin/style/adminStyle.css" rel="stylesheet" type="text/css" />
+<script src="/static/admin/js/jquery.js" type="text/javascript"></script>
+<script src="/static/admin/js/public.js" type="text/javascript"></script>
 </head>
 <body style="background:#313131">
 <div class="menu-list">
@@ -17,7 +18,7 @@
   </li>
   <li>
    <ul class="menu-children">
-    <li><a href="order_list.html" title="商品列表" target="mainCont">订单列表</a></li>
+    <li><a href="{% url 'admin:order_list' %}" title="商品列表" target="mainCont">订单列表</a></li>
    </ul>
   </li>
  

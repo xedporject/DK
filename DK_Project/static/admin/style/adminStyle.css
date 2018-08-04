@@ -101,7 +101,7 @@ input,button,select,img{vertical-align:middle;}
 .list-style td em,i{font-style:normal;}
 .list-style td a{cursor:pointer;}
 .list-style .pic-area{width:50px;}
-.list-style .thumbnail{width:30px;height:30px;}
+.list-style .thumbnail{width:60px;height:60px;}
 .list-style .children-checkbox{width:15px;height:15px;float:left;}
 .list-style .td-name{width:350px;}
 .list-style address{width:450px;font-style:normal;}
