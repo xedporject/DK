@@ -21,6 +21,72 @@ class AdminUser(models.Model):
         db_table = 'admin_user'
 
 
+class ApplicatAddressList(models.Model):
+    # 申请人通讯录
+    address_id = models.AutoField(primary_key=True)
+    uid = models.ForeignKey('Users', models.DO_NOTHING, db_column='uid')
+    address_name = models.CharField(max_length=20, blank=True, null=True)
+    tel = models.CharField(max_length=13, blank=True, null=True)
+    inter_tag = models.CharField(max_length=30, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'applicat_address_list'
+
+    def dict_(self):
+        return {
+            'address_id': self.address_id,
+            'address_name': self.address_name,
+            'tel': self.tel,
+            'inter_tag': self.inter_tag,
+        }
+
+
+class ApplicatUserSocial(models.Model):
+    # 申请人用户关系
+    social_id = models.AutoField(primary_key=True)
+    uid = models.ForeignKey('Users', models.DO_NOTHING, db_column='uid')
+    rela_name = models.CharField(max_length=20, blank=True, null=True)
+    tel = models.CharField(max_length=13, blank=True, null=True)
+    tag = models.CharField(max_length=20, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'applicat_user_social'
+
+
+class ApplicationTelLog(models.Model):
+    # 通话记录
+    log_id = models.AutoField(primary_key=True)
+    uid = models.ForeignKey('Users', models.DO_NOTHING, db_column='uid')
+    inter_tag = models.CharField(max_length=20, blank=True, null=True)
+    address_tag = models.CharField(max_length=22, blank=True, null=True)
+    talk_date = models.DateTimeField(null=True)
+    talk_duration = models.CharField(max_length=30, blank=True, null=True)
+    type = models.IntegerField(blank=True, null=True)
+    phone_address = models.CharField(max_length=22, blank=True, null=True)
+    sur_te_charge = models.CharField(max_length=22, blank=True, null=True)
+    phone = models.CharField(max_length=22, blank=True, null=True)
+
+    tb_name = 'application_tel_log'
+    class Meta:
+        managed = False
+        db_table = 'application_tel_log'
+
+    def dict_(self):
+        return {
+            'inter_tag': self.inter_tag,
+            'address_tag': self.address_tag,
+            # 'talk_date': self.talk_date.strftime("%Y-%m-%d"),
+            'talk_date': self.talk_date.strftime("%Y-%m-%d %H-%M-%S"),
+            'talk_duration': self.talk_duration,
+            'type': self.type,
+            'phone_address': self.phone_address,
+            'sur_te_charge': self.sur_te_charge,
+            'phone': self.phone,
+        }
+
+
 class AuthRole(models.Model):
     authority = models.ForeignKey('Authority', models.DO_NOTHING, primary_key=True)
     role = models.ForeignKey('Role', models.DO_NOTHING)
@@ -50,16 +116,6 @@ class BankcType(models.Model):
         db_table = 'bankc_type'
 
 
-class CaseAndOrderType(models.Model):
-    caot_id = models.AutoField(primary_key=True)
-    type_name = models.CharField(max_length=64)
-    create_time = models.DateTimeField()
-
-    class Meta:
-        managed = False
-        db_table = 'case_and_order_type'
-
-
 class CaseStatus(models.Model):
     cstatus_id = models.AutoField(primary_key=True)
     status_name = models.CharField(max_length=64, blank=True, null=True)
@@ -73,17 +129,19 @@ class Caseform(models.Model):
     user = models.ForeignKey('Users', models.DO_NOTHING, blank=True, null=True)
     admin = models.ForeignKey(AdminUser, models.DO_NOTHING, blank=True, null=True)
     case_id = models.AutoField(primary_key=True)
-    caot = models.ForeignKey(CaseAndOrderType, models.DO_NOTHING, blank=True, null=True)
+    caot_id = models.IntegerField(blank=True, null=True)
     cstatus = models.ForeignKey(CaseStatus, models.DO_NOTHING, blank=True, null=True)
     exa_admin = models.ForeignKey('ExaminRefuseReason', models.DO_NOTHING, blank=True, null=True)
     payment_amount = models.FloatField()
     will_pay = models.FloatField()
     after_day_pay = models.IntegerField()
-    create_time = models.DateTimeField()
-    start_time = models.DateTimeField()
-    end_time = models.DateTimeField()
+    create_time = models.DateTimeField(blank=True, null=True)
+    start_time = models.DateTimeField(blank=True, null=True)
+    end_time = models.DateTimeField(blank=True, null=True)
     overdua_day = models.IntegerField(blank=True, null=True)
     examin_result = models.TextField(blank=True, null=True)
+    loan_time = models.DateTimeField(blank=True, null=True)
+    column_16 = models.CharField(db_column='Column_16', max_length=10, blank=True, null=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
@@ -115,6 +173,69 @@ class ExaminRefuseReason(models.Model):
     class Meta:
         managed = False
         db_table = 'examin_refuse_reason'
+
+
+class Goods(models.Model):
+    good_id = models.CharField(primary_key=True, max_length=64)
+    good_name = models.CharField(max_length=32, blank=True, null=True)
+    category = models.ForeignKey('GoodsCategory', models.DO_NOTHING, blank=True, null=True)
+    brand = models.ForeignKey('GoodsBrand', models.DO_NOTHING, blank=True, null=True)
+    product_name = models.CharField(max_length=50, blank=True, null=True)
+    short_product_name = models.CharField(max_length=32, blank=True, null=True)
+    sku_key_1 = models.CharField(max_length=32, blank=True, null=True)
+    sku_key_2 = models.CharField(max_length=32, blank=True, null=True)
+    sku_key_3 = models.CharField(max_length=32, blank=True, null=True)
+    product_flag = models.IntegerField(blank=True, null=True)
+    min_firstpay = models.IntegerField(blank=True, null=True)
+    is_product_up_down = models.IntegerField(blank=True, null=True)
+    real_amount = models.IntegerField(blank=True, null=True)
+    mart_amount = models.IntegerField(blank=True, null=True)
+    fq_num = models.IntegerField(blank=True, null=True)
+    product_info = models.CharField(max_length=100, blank=True, null=True)
+    delivery_time = models.CharField(max_length=64, blank=True, null=True)
+    gift_list = models.CharField(max_length=200, blank=True, null=True)
+    fe_params = models.TextField(blank=True, null=True)
+    slider_imgs = models.TextField(blank=True, null=True)
+    detail_imgs = models.TextField(blank=True, null=True)
+    create_time = models.CharField(max_length=64, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'goods'
+
+
+class GoodsBrand(models.Model):
+    brand_id = models.IntegerField(primary_key=True)
+    create_time = models.CharField(max_length=64, blank=True, null=True)
+    brand_name = models.CharField(max_length=32, blank=True, null=True)
+    brand_name_ch = models.CharField(max_length=32, blank=True, null=True)
+    brand_name_en = models.CharField(max_length=32, blank=True, null=True)
+    category = models.ForeignKey('GoodsCategory', models.DO_NOTHING, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'goods_brand'
+
+
+class GoodsCategory(models.Model):
+    category_id = models.IntegerField(primary_key=True)
+    category_name = models.CharField(max_length=32, blank=True, null=True)
+    create_time = models.CharField(max_length=64, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'goods_category'
+
+
+class InternetTagList(models.Model):
+    # 互联网标签
+    tag_id = models.AutoField(primary_key=True)
+    tel = models.CharField(max_length=13, blank=True, null=True)
+    tag = models.CharField(max_length=20, blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'internet_tag_list'
 
 
 class MyIntegral(models.Model):
@@ -150,7 +271,7 @@ class OrderStatus(models.Model):
 class Orderform(models.Model):
     user = models.ForeignKey('Users', models.DO_NOTHING, blank=True, null=True)
     orderst = models.ForeignKey(OrderStatus, models.DO_NOTHING, blank=True, null=True)
-    caot = models.ForeignKey(CaseAndOrderType, models.DO_NOTHING, blank=True, null=True)
+    caot_id = models.IntegerField(blank=True, null=True)
     create_time = models.DateTimeField()
     will_pay_money = models.FloatField()
     order_id = models.AutoField(primary_key=True)
@@ -305,22 +426,6 @@ class UserinfoSocialRel(models.Model):
         db_table = 'userinfo_social_rel'
 
 
-class UserinfoTelRecord(models.Model):
-    user = models.ForeignKey('Users', models.DO_NOTHING, blank=True, null=True)
-    record_id = models.AutoField(primary_key=True)
-    inter_tag = models.CharField(max_length=32)
-    address_tag = models.CharField(max_length=32)
-    talk_date = models.DateTimeField()
-    talk_duration = models.DateTimeField()
-    type = models.IntegerField(blank=True, null=True)
-    phone_address = models.CharField(max_length=32, blank=True, null=True)
-    sur_te_charge = models.FloatField(blank=True, null=True)
-
-    class Meta:
-        managed = False
-        db_table = 'userinfo_tel_record'
-
-
 class Users(models.Model):
     user_id = models.AutoField(primary_key=True)
     user_name = models.CharField(max_length=32)
@@ -330,6 +435,11 @@ class Users(models.Model):
     avatar = models.CharField(max_length=64, blank=True, null=True)
     true_avatar = models.CharField(max_length=64, blank=True, null=True)
     nickname = models.CharField(max_length=32, blank=True, null=True)
+    tel = models.IntegerField(blank=True, null=True)
+    sex = models.IntegerField(blank=True, null=True)
+    address = models.CharField(max_length=32, blank=True, null=True)
+    more_address = models.CharField(max_length=32, blank=True, null=True)
+    email = models.CharField(max_length=32, blank=True, null=True)
 
     class Meta:
         managed = False

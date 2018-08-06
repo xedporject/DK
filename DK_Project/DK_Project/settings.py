@@ -38,9 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'dk',
-    'dk_admin',
-    'huankuan',
-
 ]
 
 MIDDLEWARE = [
@@ -80,11 +77,13 @@ WSGI_APPLICATION = 'DK_Project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dkproject',
+        # 'NAME': 'dk01',
+        'NAME': 'dk',
         'PORT': 3306,
         'USER': 'root',
         'PASSWORD':'123456',
-        'HOST':'47.104.85.246'
+        # 'HOST':'47.104.85.246',
+        'HOST': 'localhost',
     }
 }
 
@@ -129,3 +128,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS=[
     os.path.join(BASE_DIR,'static')
 ]
+
+# 通话记录分页
+PAGE_NUM = 15

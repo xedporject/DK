@@ -17,10 +17,13 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 import dk
+from dk import views
 
 urlpatterns = [
+    url(r'^admin/', admin.site.urls),
+    url(r'^dk/', include('dk.urls',namespace='dk')),
+    url(r'^application/', include('dk.urls',namespace='application')),
+    # url(r'^.*$', views.logs_pic),
 
-    url(r'^dk/', include('dk.urls', namespace='dk')),
-    url(r'^admin/', include('dk_admin.urls', namespace='admin')),
-    url(r'^huankuan/', include('huankuan.urls', namespace='huankuan')),
+
 ]

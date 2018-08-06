@@ -1,0 +1,389 @@
+﻿
+<!DOCTYPE html>
+{% load static %}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>贷款审核</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<link href="style/adminStyle.css" rel="stylesheet" type="text/css" />-->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+<script src="../../static/index/js/applicat_tel_log.js"></script>
+	<script type="text/javascript" src="{% static 'index/js/echarts.min.js' %}" ></script>
+	<!--<script type="text/javascript" src="{% static 'index/js/echarts.common.min.js' %}"></script>-->
+
+
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="tabbable" id="tabs-555666">
+				<ul class="nav nav-tabs">
+					<li class="active">
+						<a href="#panel-25444923" data-toggle="tab">申请人所有通话记录</a>
+					</li>
+					<li >
+						<a href="#panel-611743" data-toggle="tab">频繁通话(前十)</a>
+					</li>
+					<li >
+						<a href="#panel-254923" data-toggle="tab">通话统计图</a>
+					</li>
+					<li >
+						<a href="#panel-2549233333" data-toggle="tab">通讯录</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<!--所有通话记录展示-->
+					<div class="tab-pane  active" id="panel-25444923">
+						<p>
+						<table class="table">
+				<thead >
+					<tr>
+						<th>
+							手机号
+						</th>
+						<th>
+							互联网标签
+						</th>
+						<th>
+							通讯录标签
+						</th>
+						<th>
+							接受类型
+						</th>
+
+						<th>
+							通话时间
+						</th>
+						<th>
+							通话时长/s
+						</th>
+					</tr>
+				</thead>
+				<tbody id="address">
+					<tr class="success">
+
+					</tr>
+					<tr class="error">
+
+					</tr>
+					<tr class="warning">
+
+					</tr>
+					{% for page in pages %}
+					<tr class="info">
+						<td>{{page.phone}} </td>
+						<td>{{page.inter_tag}} </td>
+						<td>{{page.address_tag}} </td>
+						{% if page.type == 1%}
+						<td>主叫 </td>
+						{% elif page.type == 2%}
+						<td>被叫 </td>
+						{% else%}
+						<td>未接通 </td>
+						{% endif%}
+
+						<td>{{page.talk_date}} </td>
+						<td>{{page.talk_duration}} </td>
+
+					</tr>
+					{% endfor%}
+				</tbody>
+			</table>
+						<div style="overflow:hidden;">
+						<div class="turnPage center fr">
+						<!--分页-->
+						<ul id="PageNum">
+<li><a href="{% url 'application:applicat_logs_info' %}?page_num=1">首页</a></li>
+    {% if pages.has_previous %}
+    <li><a href="{% url 'application:applicat_logs_info' %}?page_num={{pages.previous_page_number}}">上一页</a></li>
+    {% endif %}
+    {% for no in pages.paginator.page_range %}
+    <li><a href="{% url 'application:applicat_logs_info' %}?page_num={{no}}">{{no}}</a></li>
+    {% endfor %}
+    {% if pages.has_next %}
+    <li><a href="{% url 'application:applicat_logs_info' %}?page_num={{pages.next_page_number}}">下一页</a></li>
+    {% endif %}
+    <li>当前{{ pages.number }}页</li>
+    <li><a href="{% url 'application:applicat_logs_info' %}?page_num={{pages.paginator.num_pages}}">尾页</a></li>
+
+</ul>
+						</div>
+						</div>
+
+						</p>
+					</div>
+					<!--通话记录前十-->
+					<div class="tab-pane" id="panel-611743">
+						<p>
+							<table class="table">
+				<thead >
+					<tr>
+						<th>
+							手机号
+						</th>
+						<th>
+							互联网标签
+						</th>
+						<th>
+							通讯录标签
+						</th>
+						<th>
+							归属地
+						</th>
+						<th>
+							累计通话次数
+						</th>
+						<th>
+							最近一个月
+						</th>
+					</tr>
+				</thead>
+				<tbody id="logs">
+					<tr class="success">
+
+					</tr>
+					<tr class="error">
+
+					</tr>
+					<tr class="warning">
+
+					</tr>
+					<tr class="info">
+
+					</tr>
+				</tbody>
+			</table>
+						<div style="overflow:hidden;">
+	  <!-- turn page -->
+	  <div class="turnPage center fr">
+	   <a>第一页</a>
+	   <a>1</a>
+	   <a>最后一页</a>
+	  </div>
+  </div>
+						</p>
+					</div>
+					<!--通话统计图-->
+					<div class="tab-pane " id="panel-254923">
+						<p>
+<!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+						</p>
+					</div>
+					<div class="tab-pane" id="panel-2549233333">
+						<p>
+						<div>
+						<select id="query" onchange="_change(this)">
+			<option value=0>all</option>
+  <option value=1>亲戚</option>
+  <option value=2>互联网标签</option>
+  <option value=3>其他</option>
+
+
+</select>
+
+						</div>
+
+							<table class="table">
+				<thead >
+					<tr>
+						<th>
+							姓名
+						</th>
+						<th>
+							电话
+						</th>
+						<th>
+							互联网标签
+						</th>
+					</tr>
+				</thead>
+				<tbody id="list">
+					<tr class="success">
+
+					</tr>
+					<tr class="error">
+
+					</tr>
+					<tr class="warning">
+
+					</tr>
+					<tr class="info">
+
+					</tr>
+				</tbody>
+			</table>
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+  <!-- BatchOperation -->
+
+ </div>
+<!-- 引入 ECharts 文件 -->
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+		function _change(obj){
+		    // kinsman,normal,danger
+		    if ($('#query').val() == 1){
+		        $('.normal').hide()
+		        $('.danger').hide()
+		        $('.kinsman').show()
+			}
+			 if ($('#query').val() == 2){
+		        $('.normal').hide()
+		        $('.danger').show()
+		        $('.kinsman').hide()
+			}
+			 if ($('#query').val() == 3){
+		        $('.normal').show()
+		        $('.danger').hide()
+		        $('.kinsman').hide()
+			}
+			 if ($('#query').val() == 0){
+		        $('.normal').show()
+		        $('.danger').show()
+		        $('.kinsman').show()
+			}
+
+		}
+		$(document).ready(function(){
+		    // alert('我来了')
+		    $.get('/application/frequent_call_logs/',function(msg){
+				var html_list = ''
+		        if (msg.code == 200){
+		            for (var i=0;i<msg.result.length;i++){
+		                var html = ''
+						html += '<tr>'
+						html += '<td>'+msg.result[i][7]+'</td>'
+						html += '<td>'+msg.result[i][0]+'</td>'
+						html += '<td>'+msg.result[i][1]+'</td>'
+						html += '<td>'+msg.result[i][5]+'</td>'
+		                    html += '<td>'+msg.result[i][8]+'</td>'
+						if (msg.result[i][10] == null) {
+                            html += '<td>' + 0 + '</td>'
+                        }else{
+		                    html += '<td>' + msg.result[i][10] + '</td>'
+						}
+						html += '</tr>'
+						html_list += html
+					}
+					$('#logs').append(html_list)
+				}
+			})
+
+
+		    // alert('我来了')
+		    $.get('/application/address_list/',function(msg) {
+		        //正则表达式
+				var name = /['爸''妈''父亲''母亲''弟弟''妹妹''姐姐''老头子''老爷子']/
+                var html_list = ''
+
+
+                if (msg.code == 200) {
+                    for (var i = 0; i < msg.result.length; i++) {
+                        var html = ''
+                        html += '<tr>'
+						if(name.test(msg.result[i].address_name) && (msg.result[i].inter_tag == ' ')){
+                             html += '<td bgcolor="#7fff00" class="kinsman">' + msg.result[i].address_name + '</td>'
+							html += '<td bgcolor="#7fff00" class="kinsman">' + msg.result[i].tel + '</td>'
+                        html += '<td bgcolor="#7fff00" class="kinsman">' + msg.result[i].inter_tag + '</td>'
+                        html += '</tr>'
+
+                        }else if(msg.result[i].inter_tag !== ' '){
+                            html += '<td bgcolor="black" class="danger">' + msg.result[i].address_name + '</td>'
+							html += '<td bgcolor="black" class="danger">' + msg.result[i].tel + '</td>'
+                        html += '<td bgcolor="black" class="danger">' + msg.result[i].inter_tag + '</td>'
+                        html += '</tr>'
+						}else{
+                            html += '<td class="normal">' + msg.result[i].address_name + '</td>'
+							html += '<td class="normal">' + msg.result[i].tel + '</td>'
+                        html += '<td class="normal">' + msg.result[i].inter_tag + '</td>'
+                        html += '</tr>'
+						}
+
+                        html_list += html
+                    }
+                    $('#list').append(html_list)
+                }
+
+
+            })
+				// 拿到通话统计图表数据
+var my_ec;//自定义变量，用来保存echarts对象
+$(function(){
+	//路径配置
+	require.config({
+        paths:{
+            "echarts" : "/DK/static/index/js/echarts.min.js",  //DK是我项目的名称
+        }
+    });
+	//使用
+	require(
+       [
+           "echarts",
+           "echarts/chart/pie", // 使用饼图就加载pie模块，按需加载
+           "echarts/chart/bar", // 使用柱状图就加载bar模块，按需加载
+       ],
+
+       function(ec){
+    	   my_ec = ec;//将echarts对象赋值给自定义的变量
+    	   postChart();
+    	}
+    );
+});
+var myChart = echarts.init(document.getElementById('main'));
+	$.get('/application/logs_pic', function (data) {
+			// alert('dfgde')
+	    // alert(data.user_logs_five_month)
+
+
+    	var option = {
+            title: {
+                text: '申请人'+data.user_name+'的通话统计图'
+            },
+            tooltip: {},
+            legend: {
+                data:['通话次数']
+            },
+            xAxis: {
+                data: ['last_one_month',
+					'last_two_month',
+					"last_three_month",
+					"last_four_month",
+					"last_five_month",
+				]
+            },
+            yAxis: {},
+            series: [{
+                name: '通话总计',
+                type: 'bar',
+                data: [data.user_logs_one_month,
+					data.user_logs_two_month,
+					data.user_logs_three_month,
+					data.user_logs_four_month,
+					data.user_logs_five_month,
+
+				]
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+});
+
+
+});
+    </script>
+</body>
+</html>
