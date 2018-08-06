@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Contacts>
+    <Contact>
+        <Name>安娜姐</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18428386503</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>班长</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18489964991</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>彪哥</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18080417594</Phone>
+            <Phone Type="2">18310727951</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>曹工</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18200396107</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>陈俊聪</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">681488</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>成都到老家</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18382984033</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>弟弟</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18781095717</Phone>
+            <Phone Type="2">15680955076</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>钉钉专属顾问</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">057156215888</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>Phone</Name>
+            <Type>com.android.huawei.phone</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>房东陶姐</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13658029615</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>飞机</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18408248412</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>高杰</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13547900764</Phone>
+            <Phone Type="2">13281072907</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>龚经理</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18982058575</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>龚礼</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">17760015946</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>龚礼 .</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">+8618381667720</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>合租李哥</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13688119091</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>何源远</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">681421</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>何源远</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">681421</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>红苕</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">15002845565</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>虎哥</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13980300633</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>虎哥2</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13980300633</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>华为客服</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">4008308300</Phone>
+        </PhoneList>
+        <EmailList>
+            <Email Type="1">mobile@huawei.com</Email>
+        </EmailList>
+        <PostalAddressList>
+            <PostalAddress Type="2">深圳市龙岗区坂田华为基地</PostalAddress>
+        </PostalAddressList>
+        <Account value="0">
+            <Name>Phone</Name>
+            <Type>com.android.huawei.phone</Type>
+        </Account>
+        <HeadSculpture>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</HeadSculpture>
+    </Contact>
+    <Contact>
+        <Name>黄秀</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">15708483924</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>黄总</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18030417606</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>火山。</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18302813855</Phone>
+            <Phone Type="2">18302367075</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>货车司机</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13633365668</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>吉俄尔坡</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">684153</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>蒋林凤</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18782934189</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>教授</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18408233057</Phone>
+            <Phone Type="2">681423</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>精一</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18380427984</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>精一短号</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">682353</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>舅舅</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13990800388</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>舅妈</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13980303028</Phone>
+            <Phone Type="2">18121825193</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>舅妈</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13980303028</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>舅妈</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13980303028</Phone>
+            <Phone Type="2">18121825193</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>舅妈</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13980303028</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>老爸</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13989189063</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>老妈</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">+8618382988968</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>老妈</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">+8618382988968</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>老妈，</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18382988968</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>老妈，</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18382988968</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>李佳林</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18408233056</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>李朋朋</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">61808</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>李钊</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">+8618408233043</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>李钊</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">+8618408233043</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>立军哥</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18780078838</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>凌坤</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">697388</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>刘为</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18408233089</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>刘为</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">61177</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>刘勇</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13620059680</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>罗工</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13458668101</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>罗洋</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">+8615102875174</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>罗洋</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">+8615102875174</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>胖子</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18123464239</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>萍</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18883267781</Phone>
+            <Phone Type="2">15828237053</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>千峰教育张</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18328430589</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>饶娟</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18781702916</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>水工</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18629608078</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>孙经理</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">17688669093</Phone>
+            <Phone Type="2">13418362249</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>唐静</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18782498075</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>天使大姐</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18380436012</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>王超哥</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">15899695353</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>王工</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13982291727</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>西华陈建飞</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">15184467695</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>肖伟</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">15708448026</Phone>
+            <Phone Type="2">15182993258</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>小刘</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">617510</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>小婷</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18482155584</Phone>
+            <Phone Type="2">660588</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>小唯</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">15198182957</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>小朱</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18180428324</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>雄</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">15708410534</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>旭子</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13398362887</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>亚军</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18328712561</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>亚军</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18328712561</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>亚洲新</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">13689071298</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>颜铭宏</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18408233087</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>医生</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">15328002595</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>友平姑爷</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18081093356</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>张工</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18664076839</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>张金涛</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">18291796315</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>张瑜，喷胶自</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">15209262929</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>赵浩池</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">681480</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>赵浩池</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">681480</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>周鹏</Name>
+        <Starred>0</Starred>
+        <PhoneList>
+            <Phone Type="2">15508103834</Phone>
+        </PhoneList>
+        <Account value="0">
+            <Name>sim1</Name>
+            <Type>com.android.huawei.sim</Type>
+        </Account>
+        <GroupList>
+            <GroupName>卡 1</GroupName>
+        </GroupList>
+    </Contact>
+    <Contact>
+        <Name>安娜姐</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>安娜姐</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>彪哥</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>彪哥</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>曹工</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>曹工</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>弟弟</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>弟弟</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>房东陶姐</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>高杰</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>高杰</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>龚经理</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>龚礼 .</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>龚礼 .</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>合租李哥</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>合租李哥</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>红苕</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>红苕</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>虎哥2</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>虎哥2</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>黄秀</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>黄秀</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>黄总</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>黄总</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>火山。</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>火山。</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>货车司机</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>蒋林凤</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>蒋林凤</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>精一</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>精一</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>舅舅</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>舅舅</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>舅妈</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>舅妈</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>老爸</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>老妈</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>李佳林</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>李佳林</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>李钊</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>李钊</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>立军哥</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>刘为</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>刘勇</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>罗洋</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>罗洋</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>胖子</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>胖子</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>萍</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>饶娟</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>饶娟</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>孙经理</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>孙经理</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>天使大姐</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>王超哥</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>西华陈建飞</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>西华陈建飞</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>肖伟</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>肖伟</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>小唯</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>小唯</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>雄</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>雄</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>旭子</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>旭子</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>亚军</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>亚军</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>亚洲新</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>亚洲新</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>颜铭宏</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>张工</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>害死猫</Name>
+            <Type>com.tencent.mm.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>张工</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+    <Contact>
+        <Name>张瑜，喷胶自</Name>
+        <Starred>0</Starred>
+        <Account value="0">
+            <Name>海狸子先生(2430532291)</Name>
+            <Type>com.tencent.mobileqq.account</Type>
+        </Account>
+    </Contact>
+</Contacts>
