@@ -1,6 +1,8 @@
 
 from __future__ import unicode_literals
 
+import json
+
 from django.db import models
 
 
@@ -54,6 +56,25 @@ class Goods(models.Model):
     slider_imgs = models.TextField(blank=True, null=True)
     detail_imgs = models.TextField(blank=True, null=True)
     create_time = models.CharField(max_length=64, blank=True, null=True)
+
+    def to_dict(self):
+        self.slider_imgs = self.slider_imgs.split("||")
+        self.detail_imgs = self.detail_imgs.split("||")
+        self.fe_params = json.loads(self.fe_params)
+        return {
+            "good_id": self.good_id,
+            "good_name": self.good_name,
+            "category_id": self.category_id,
+            "brand_id": self.brand_id,
+            "sku_key_1": self.sku_key_1,
+            "sku_key_2": self.sku_key_2,
+            "sku_key_3": self.sku_key_3,
+            "real_amount": self.real_amount,
+            "mart_amount": self.mart_amount,
+            "slider_imgs": self.slider_imgs,
+            "detail_imgs": self.detail_imgs,
+        }
+
 
 
 

@@ -12,5 +12,6 @@ router.register(r'category', views.CategoryApi)
 
 urlpatterns = [
     url(r'^index/', views.index, name='index'),
+    url(r'goods/details/(\d+)/', views.details)
 ]
 urlpatterns += router.urls

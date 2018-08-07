@@ -95,7 +95,7 @@ key_words = ['brand_id', 'brand_name', 'brand_name_ch', 'brand_name_en', 'catego
 good_id  int 商品id
 category_id  int 商品类别 id
 brand_id  int 商品品牌 id
-slider_imgs  list 展示商品页轮播图 url  
+slider_imgs  list 展示商品页轮播图 url
 detail_imgs  list 商品详情的图片 url
 detail_data  dict  商品的详细信息  具体字段解释如下
 {

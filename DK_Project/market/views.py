@@ -11,12 +11,14 @@ from utils.filters import GoodsFilter, GoodsBrandFilter, GoodsCategoryFilter
 
 def index(request):
     """商城首页"""
-    return render(request, 'goods_market/index.html')
+    return render(request, 'market/index.html')
 
 
-def detail(request):
+def details(request, good_id):
     """商品详情页面"""
-    return render(request, 'market/goods-detail.html')
+    good = Goods.objects.get(good_id=good_id).to_dict()
+
+    return render(request, 'market/goods-detail.html', context=good)
 
 
 def goods(request):
