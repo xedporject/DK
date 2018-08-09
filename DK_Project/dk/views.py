@@ -1,4 +1,5 @@
 import datetime
+from multiprocessing import Process
 
 from django.core.paginator import Paginator
 from django.db import connection
@@ -25,6 +26,8 @@ def transform_user_address(request):
             user = Users.objects.filter(user_id=1).first()
             # 查出用户上传的通讯录路径
             path = '/workspaces/DK_Project/utils/media/address_list.xml'
+            # 引入进程
+            # Process(target=transform_address,args=(user,path)).start()
             data = transform_address(user, path)
             # print(data)
         except:
@@ -45,6 +48,7 @@ def transform_user_log(request):
             user = Users.objects.filter(user_id=1).first()
             # 查出用户上传的通话记录路径
             path = '/workspaces/DK_Project/utils/media/address_list.xml'
+            # Process(target=transform_data, args=(user, path)).start()
             data = transform_data(user, path)
             # print(data)
         except:

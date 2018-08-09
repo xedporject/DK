@@ -1,6 +1,7 @@
 import datetime
 import random
 import re
+import time
 
 from xml.dom.minidom import parse
 import xml.dom.minidom
@@ -98,12 +99,13 @@ def transform_data(user,path):
     for i in ths:
         i.start()
     # 是在不行加一个延时
-    # sleep(30)
+    time.sleep(10)
     for i in range(len(ths)):
         ths[i].join()
         phone_adrress = ths[i].get_result()
         # 添加归属地
         user_log[i].append(phone_adrress)
+    time.sleep(10)
     for user_ in user_log:
         # 写入数据库
         ApplicationTelLog.objects.create(uid=user,
