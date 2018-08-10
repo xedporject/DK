@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'dk',
     'dk_admin',
     'huankuan',
+    'user'
 
 ]
 

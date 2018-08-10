@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^dk/', include('dk.urls', namespace='dk')),
     url(r'^admin/', include('dk_admin.urls', namespace='admin')),
     url(r'^huankuan/', include('huankuan.urls', namespace='huankuan')),
+    url(r'^loan/', include('user.urls', namespace='loan'))
 ]
